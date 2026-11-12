@@ -1,0 +1,21 @@
+{
+  "name": "evm-vanity-address",
+  "version": "1.0.0",
+  "description": "Generate an EVM wallet address with a chosen prefix and/or suffix (vanity address), multi-threaded.",
+  "main": "vanity.js",
+  "bin": {
+    "evm-vanity": "./vanity.js"
+  },
+  "scripts": {
+    "test": "node --check vanity.js"
+  },
+  "keywords": ["evm", "vanity", "address", "ethereum", "bsc", "wallet", "brute-force"],
+  "author": "Faisal (jackdefi.ai)",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
