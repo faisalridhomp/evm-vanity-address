@@ -9,11 +9,19 @@
   "scripts": {
     "test": "node --check vanity.js"
   },
-  "keywords": ["evm", "vanity", "address", "ethereum", "bsc", "wallet", "brute-force"],
+  "keywords": [
+    "evm",
+    "vanity",
+    "address",
+    "ethereum",
+    "bsc",
+    "wallet",
+    "brute-force"
+  ],
   "author": "Faisal (jackdefi.ai)",
   "license": "MIT",
   "dependencies": {
-    "ethers": "^6.13.4"
+    "ethers": "^6.17.0"
   },
   "engines": {
     "node": ">=18"
